@@ -489,7 +489,8 @@ body {
 }
 .phone-background{
     background: rgba(0,12,26,0.90);
-    padding: 50px 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #ffffff;
     text-align: center;
 }
