@@ -1,0 +1,652 @@
+@charset "UTF-8";
+
+body {
+    color: #000000;
+    background: #ffffff;
+    font-size: 13px;
+    line-height: 1.3;
+    min-width: 320px;
+    font-family: 'Roboto', Aria, sans-serif;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo, .forms-logo {
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.logo {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    padding: 20px 0 23px;
+}
+
+.main-nav {
+    list-style: none;
+    margin: 0;
+    padding: 90px 0 17px;
+    text-align: center;
+}
+
+.main-nav li {
+    margin: 0;
+    padding: 10px 13px 10px 11px;
+}
+
+@media screen and (min-width: 680px) {
+    .main-nav .social {
+        display: inline-block;
+        padding: 10px 13px 10px 11px;
+    }
+}
+@media screen and (min-width: 1114px) {
+    .main-nav {
+        padding: 25px 0 17px;
+        text-align: center;
+    }
+
+    .logo {
+        padding: 28px 0 23px;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        padding: 10px 13px 10px 11px;
+    }
+}
+
+.main-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fcf7f7;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.main-nav .social{
+    margin-bottom: 10px;
+}
+.social a {
+    background: #00e676;
+    border-radius: 20px;
+}
+
+.main-nav .social .social-phone{
+    color: black;
+}
+.main-block {
+    background: rgba(4, 69, 87, 0.8);
+    margin-bottom: 50px;
+}
+
+.main-block-wrapper {
+
+    background: url(../images/main-pic.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.main-text {
+    text-align: center;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.price-button, .main-block-button {
+    padding: 30px 60px;
+    background: #ff822e;
+    border: 1px solid #ff822e;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    width: 70%;
+}
+
+.main-block-button {
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+@media screen and (min-width: 680px) {
+
+
+    .price-button, .main-block-button {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 980px) {
+    .main-text {
+        padding: 153px 0 208px;
+        text-align: left;
+    }
+
+    .price-button, .main-block-button {
+        margin: 0 10px 0 0;
+        display: inline-block;
+        width: auto;
+    }
+
+    .main-text h1, h2 {
+        padding: 0;
+        font-size: 52px;
+    }
+}
+
+.main-text h1, h2 {
+    font-size: 30px;
+    display: block;
+    margin: 0 0 5px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-text h2 {
+    text-transform: none;
+}
+
+.main-text p {
+    padding: 15px 0;
+    font-size: 16px;
+    margin: 0 0 30px 0;
+}
+
+.services {
+    background: white;
+    margin-bottom: 90px;
+}
+
+.top-services {
+    margin: 0 auto 85px auto;
+    text-align: center;
+}
+
+.top-services h2, .works-title {
+    font-weight: 600;
+    font-size: 26px;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+.top-services p,.works-text {
+    margin: 0 auto 20px auto;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 980px) {
+    .top-services h2, .works-title{
+        font-size: 40px;
+    }
+    .top-services p, .works-text {
+        font-size: 24px;
+        max-width: 560px;
+    }
+}
+
+.items {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 15px 45px;
+    margin: 0 15px 81px 15px;
+    width: 100%;
+    text-align: left;
+}
+
+.item img{
+    width: 100%;
+    height: 260px;
+    max-width: 320px;
+}
+.item h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.item p {
+    font-size: 16px;
+    font-weight: 600;
+    flex-grow: 2;
+}
+.item .price-button{
+    padding: 20px;
+    font-size: 14px;
+    margin: 10px 0;
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 680px) {
+    .item {
+        width: 45%;
+    }
+    .item h4 {
+        font-size: 24px;
+    }
+    .item p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1114px) {
+    .item {
+        width: 30%;
+    }
+    .item h4 {
+        font-size: 26px;
+    }
+    .item p {
+        font-size: 20px;
+    }
+}
+
+
+.item:first-child {
+    margin-left: 0;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.works{
+    background: #f0f0f0;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.works-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.works-box {
+    width: 95%;
+    margin: 0 auto 45px auto;
+    text-align: left;
+}
+
+.works-box img{
+    height: 293px;
+    width: 100%;
+    max-width: 310px;
+}
+.works-box h4 {
+    font-size: 18px;
+}
+
+.works-box p {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 980px) {
+    .works-box {
+        width: 48%;
+    }
+}
+
+
+@media screen and (min-width: 1114px) {
+    .works-box {
+        width: 23%;
+    }
+}
+
+.part-boxes-wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.part-boxes{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.part-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.parts-block{
+    padding-top: 50px;
+}
+.parts-block-title{
+    text-align: center;
+    padding: 20px 0;
+}
+.part-box p{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.part-img{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: url(../images/phone-call.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+.arrow{
+    max-width: 100px;
+    margin: 45px auto;
+    transform: rotate(90deg);
+    display: inline-block;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 980px) {
+    .part-boxes{
+        width: 25%;
+        flex-direction: row;
+    }
+    .arrow{
+        top: 50%;
+        left: -20px;
+        transform: rotate(360deg);
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1114px) {
+    .part-box p{
+        font-size: 22px;
+    }
+}
+
+.feedback-wrap{
+    background-color: #ededed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+
+}
+.feedback{
+    margin: 10px auto 40px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.feedback-img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    margin: 0 20px 0 0;
+}
+.feedback-text{
+    background: #ffffff;
+    padding: 0 20px;
+}
+.feedback-text h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.feedback-text p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+@media screen and (min-width: 980px) {
+.feedback-img{
+    width: 100px;
+    height: 100px;
+}
+    .feedback{
+        width: 65%;
+    }
+}
+.reasons-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reason-box{
+    width: 90%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.reason-text{
+    padding-left: 20px;
+}
+
+.reason-text h4{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.reason-text p{
+    display: inline-block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.number{
+    display: inline-block;
+    background: #ff822e;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+}
+@media screen and (min-width: 980px) {
+    .reason-box{
+        width: 48%;
+    }
+    .number{
+        width: 80px;
+    }
+}
+
+
+@media screen and (min-width: 1114px) {
+    .reason-box{
+        width: 30%;
+    }
+    .number{
+        width: 100px;
+    }
+}
+
+.phone-wrap{
+    background: url(../images/raschet.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+.phone-background{
+    background: rgba(0,12,26,0.90);
+    padding: 50px 100px;
+    color: #ffffff;
+    text-align: center;
+}
+.phone-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.phone-text{
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+}
+
+.phone{
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 20px 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form .price-button{
+    padding: 20px;
+    width: 100%;
+}
+
+.form{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 980px) {
+    .phone-title{
+        font-size: 44px;
+    }
+    .phone-text{
+        font-size: 24px;
+    }
+    .form{
+        width: 60%;
+    }
+    .phone{
+        width: 60%;
+    }
+    .form .price-button{
+        width: 28%;
+    }
+}
+
+@media screen and (min-width: 1114px) {
+    .phone-title{
+        font-size: 48px;
+    }
+}
+.accordion{
+    background: #ffffff;
+    text-align: left;
+    margin-bottom: 80px;
+    padding: 25px 30px;
+}
+.faq-wrap{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background: #f0f0f0;
+}
+.faq-wrap h2{
+    margin-bottom: 50px;
+}
+.accordion p, .accordion .accordion-list li{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.45;
+}
+.ui-accordion .ui-accordion-header{
+    font-size: 20px;
+    line-height: 1.35;
+    font-weight: 600;
+}
+
+.ui-accordion .ui-accordion-content{
+    border-bottom: 1px solid #f0f0f0;
+}
+@media screen and (min-width: 980px) {
+    .ui-accordion .ui-accordion-header{
+        font-size: 24px;
+    }
+    .accordion p, .accordion .accordion-list li{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1114px) {
+    .accordion p, .accordion .accordion-list li{
+        font-size: 18px;
+    }
+}
+
+.footer-wrap{
+    background: url(../images/Process-ukladki-beto.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+footer{
+    background: rgba(0,0,0,0.80);
+}
+.logo-img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+}
+.contact-info{
+    padding: 50px 0;
+    text-align: center;
+}
+.contact-info p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+@media screen and (min-width: 980px) {
+    .contact-info p{
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
+@media screen and (min-width: 1114px) {
+    .contact-info p{
+        font-size: 24px;
+    }
+}
+.line{
+    width: 54px;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    opacity: 0.60;
+}
+.footer-button{
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: 300;
+    display: block;
+    margin: 15px auto;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    background: #27d061;
+    width: 60%;
+    font-size: 16px;
+}
+.footer-phone{
+    background: #004d73;
+}
